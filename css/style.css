@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    position: relative;
+    background: linear-gradient(90deg, #044798, #080e86);
+  }
+  
+  .container {
+    max-width: 1000px;
+  }
+  
+  body,
+  .form-control,
+  .btn {
+    color: #fff;
+  }
+  
+  
+  .description {
+    color: #eee;
+  }
+  
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    appearance: textfield;
+  }
+  
+  input[type="number"]::-webkit-input-placeholder {
+    color: #eee;
+  }
+  
+  input[type="number"]::-moz-placeholder {
+    color: #eee;
+  }
+  
+  input[type="number"]:-ms-input-placeholder {
+    color: #eee;
+  }
+  
+  input[type="number"]::-ms-input-placeholder {
+    color: #eee;
+  }
+  
+  input[type="number"]::placeholder {
+    color: #eee;
+  }
+  
+ .score-box {
+    background-color: #eee;
+    border-radius: 8px;
+    text-align: center;
+ }
+ .score-box h6 {
+    color: #000000;
+    font-weight: bold;
+ }
+ .score-box span {
+    color: #044598;
+    font-weight: bold;
+ }
+ .box-center {
+    text-align: center;
+    margin-top: 5px;
+ }
+ .ipl-img {
+    margin-bottom: 20px;
+ }
+ .err-red {
+    color: #de1313;
+ }
+ .btn-orange {
+  background-color: #d59803;
+  color: #ffffff;
+ }
+ .btn-orange:hover {
+  background-color: #ffffff;
+  color: #d59803;
+ }
